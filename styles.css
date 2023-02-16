@@ -1,0 +1,170 @@
+body { 
+  margin: 0;
+}
+
+header {
+  background-color: rgba(72, 74, 78, 255);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #f97f51;
+  text-decoration: none;
+}
+
+
+
+/* Creamos el estilo de la seccion de skills */
+.skills-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skill-column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: rgba(72, 74, 78, 255);
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-column:hover {
+  transform: scale(1.02);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #f97f51;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #fde3b3;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #F8F9FA;
+  padding: 100px 0;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  color: #343A40;
+}
+
+.contact-list li a:hover {
+  color: #007BFF;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #f97f51;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(249, 127, 81, 0.25);
+}
