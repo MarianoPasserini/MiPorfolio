@@ -53,6 +53,31 @@ header {
   text-decoration: none;
 }
 
+/* estilizamos la parte de hero */
+#hero {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+.img {
+  float: right;
+  width: 40%;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
 
 
 /* Creamos el estilo de la seccion de skills */
