@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mariano Passerini</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -16,6 +17,7 @@
           <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -79,6 +81,28 @@
   </div>  
   </secction>
 
+  <section id="projects">
+    <div class="slideshow-container">
+      <div class="slideshow">
+        <div class="slide">
+          <img src="image1.png" alt="Image 1" class="slide-image">
+          <a class="repo-link" href="https://github.com/MarianoPasserini/Memory-Game" target="_blank">Ver en GitHub</a>
+        </div>
+        <div class="slide">
+          <img src="image2.png" alt="Image 2" class="slide-image">
+          <a class="repo-link" href="https://github.com" target="_blank">Ver en GitHub</a>
+        </div>
+        <div class="slide">
+          <img src="image3.png" alt="Image 3" class="slide-image">
+          <a class="repo-link" href="https://github.com/MarianoPasserini/SpaceInvaders" target="_blank">Ver en GitHub</a>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </section>
+
+  </section>
   <section id="contact">
     <div class="container">
       <h2 class="section-header">GET IN TOUCH</h2>
@@ -114,6 +138,6 @@
     </div>
   </section>
   
-  <script src="app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
