@@ -89,6 +89,7 @@ header {
 
 /* estilizamos la parte de about */
 #about-section {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +131,7 @@ header {
   padding: 10px 20px; /* increase the padding of the buttons */
   border-radius: 5px; /* add rounded corners to the buttons */
   background-color: #f97f51; /* set a background color for the buttons */
-  color: #fff; /* set a text color for the buttons */
+  color: #fde3b3; /* set a text color for the buttons */
   text-decoration: none; /* remove the underline from the buttons */
 }
 
@@ -141,9 +142,10 @@ header {
 
 /* Creamos el estilo de la seccion de skills */
 .skills-grid {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center; /* center vertically */
   margin-top: 50px;
 }
 
@@ -155,14 +157,14 @@ header {
   border: 1px solid #ebebeb;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
-}
-
-.skill-column:hover {
-  transform: scale(1.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* center horizontally */
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px; /* larger font size */
   font-weight: bold;
   margin-bottom: 25px;
   color: #f97f51;
@@ -177,8 +179,33 @@ ul {
 li {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 20px; /* larger font size */
+  line-height: 3;
+  color: #fde3b3;
+}
+
+.skill-column:hover {
+  transform: scale(1.05); /* Added transform property */
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #f97f51;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 3;
   color: #fde3b3;
 }
 
@@ -220,7 +247,7 @@ li {
 
 .contact-list li a {
   text-decoration: none;
-  color: #343A40;
+  color: rgb(0, 0, 0);
 }
 
 .contact-list li a:hover {
