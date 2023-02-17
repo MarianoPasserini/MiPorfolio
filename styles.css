@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+/* Fallback for older browsers */
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 header {
   background-color: rgba(72, 74, 78, 255);
   color: #fff;
@@ -127,17 +136,19 @@ header {
 }
 
 .btn {
-  margin-top: 20px; /* add some margin at the top of the buttons */
-  padding: 10px 20px; /* increase the padding of the buttons */
-  border-radius: 5px; /* add rounded corners to the buttons */
-  background-color: #f97f51; /* set a background color for the buttons */
-  color: #fde3b3; /* set a text color for the buttons */
-  text-decoration: none; /* remove the underline from the buttons */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fde3b3;
+  color: #f97f51; /* change the text color to white */
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* add a text shadow */
 }
+
 
 .btn:hover {
   background-color: #f97f51;
-  color: white;
+  color: #fde3b3;
 }
 
 /* Creamos el estilo de la seccion de skills */
