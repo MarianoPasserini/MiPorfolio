@@ -22,6 +22,7 @@ function showSlides(n) {
 const form = document.querySelector(".contact-form");
 
 form.addEventListener("submit", e => {
+  console.log("Form submitted");
   e.preventDefault();
 
   const api_key = process.env.EMAIL_PASSWORD;
