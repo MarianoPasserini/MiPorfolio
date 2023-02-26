@@ -25,7 +25,7 @@ form.addEventListener("submit", e => {
   console.log("Form submitted");
   e.preventDefault();
 
-  const api_key = process.env.EMAIL_PASSWORD;
+  const api_key = "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";
   const to_email = "marianpasse1@gmail.com";
   const from_email = "renacer258@gmail.com";
   const from_name = "Mariano";
