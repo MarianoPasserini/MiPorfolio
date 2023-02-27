@@ -330,33 +330,6 @@ a {
   color: var(--text-color);
 }
 
-/* Set styles for contact form */
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  border: none;
-  border-bottom: 1px solid var(--text-color);
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 10px;
-}
-
-.contact-form input[type="submit"] {
-  background-color: var(--highlight-color);
-  color: var(--text-color);
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-bottom: 20px;
-}
-
-.contact-form input[type="submit"]:hover {
-  background-color: var(--text-color);
-  color: var(--highlight-color);
-}
-
 /* un poco de chiche para js */
 .slideshow-container {
   max-width: 1000px;
